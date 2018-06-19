@@ -7,10 +7,10 @@ public class App {
 		String output = "";
 
 		// 数値a[i]
-		int[] a = new int[0];
+		int[] a = new int[args.length - 1];
 
 		// 文字列 s[i]
-		String[] s = new String[0];
+		String[] s = new String[args.length - 1];
 
 		// 対象の数値
 		int target = 0;
